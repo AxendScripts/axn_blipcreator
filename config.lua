@@ -2,7 +2,7 @@ Config = {}
 
 Config.Framework = 'ESX' -- or 'QB'
 
-Config.Peds = {
-    {model = "a_m_m_business_01", coords = vector3(215.5, -809.6, 30.7), heading = 253.4},
-    {model = "a_m_m_business_01", coords = vector3(215.9, -808.4, 30.7), heading = 253.4}
+Config.Blips = {
+    {name = "LSPD", sprite = 60, color = 38, scale = 0.8, coords = vector3(442.1, -981.7, 30.7)},
+    {name = "EMS", sprite = 61, color = 1, scale = 0.8, coords = vector3(295.8, -1446.2, 29.9)}
 }
